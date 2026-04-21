@@ -1,6 +1,4 @@
-## Hi there 👋
-
-<!--**ecocinar/ecocinar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Hi 👋
 
 🔭 I'm currently working on an interactive data visualization of every Eastern Roman Emperor from Constantine I to the Fall of Constantinople in 1453.
 🌱 I'm currently learning Python, Pandas, and SQL for BI and data analytics.
