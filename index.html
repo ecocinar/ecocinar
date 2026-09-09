@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ecocinar — Business Intelligence Program Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="ecocinar — BI professional working with data visualization and Python." />
+  </head>
+  <body>
+    <main class="card">
+      <div class="head">
+        <div class="avatar">ec</div>
+        <div>
+          <h1 class="name">ecocinar</h1>
+          <p class="role">Business Intelligence Program Manager — HR tech &amp; data science</p>
+        </div>
+      </div>
+
+      <p class="about">I mostly work with Python, Jupyter Notebooks, SQL, AWS, QuickSight, and Microsoft Excel. I'm always looking to collaborate on data visualization and history projects.</p>
+
+      <ul class="skills">
+        <li>Python • Jupyter • SQL</li>
+        <li>AWS • QuickSight • Excel</li>
+        <li>Data visualization • BI • Analytics</li>
+      </ul>
+
+      <div class="actions">
+        <button id="emailBtn" class="btn">Contact</button>
+        <a class="btn ghost" href="https://www.linkedin.com/in/erictcook/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="link" href="https://github.com/ecocinar/ecocinar" target="_blank" rel="noopener">View repository</a>
+      </div>
+
+      <p class="fun">⚡ Fun fact: I have identified over 130 bird species in the Merlin app.</p>
+
+      <footer class="footer">Made with ♥ — simple static site • Hosted on GitHub Pages</footer>
+    </main>
+
+    <script>
+      // Construct mailto link at runtime to avoid exposing raw email to bots/scrapers
+      (function(){
+        var user = 'ecocinar';
+        var domain = 'gmail';
+        var tld = 'com';
+        var subject = encodeURIComponent('Hello from your website');
+        var btn = document.getElementById('emailBtn');
+        btn.addEventListener('click', function(){
+          var mailto = 'mailto:'+user+'@'+domain+'.'+tld+'?subject='+subject;
+          window.location.href = mailto;
+        });
+      })();
+    </script>
+  </body>
+</html>
